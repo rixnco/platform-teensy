@@ -58,6 +58,7 @@ BUILTIN_USB_FLAGS = (
     "USB_FLIGHTSIM",
     "USB_FLIGHTSIM_JOYSTICK",
     "USB_EVERYTHING",
+    "USB_CUSTOM" ,
     "USB_DISABLED",
 )
 if not set(env.get("CPPDEFINES", [])) & set(BUILTIN_USB_FLAGS):
